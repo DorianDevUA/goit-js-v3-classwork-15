@@ -1,13 +1,10 @@
 console.log('Hello from Parcel');
-// import validatePasword from './js/validate-password';
-// import { addUser } from './js/api-service';
+import validatePasword from './validate-password';
+import { addUser } from './api-service';
 
-// import onOpenModal from './js/on-open-modal';
-// onOpenModal.addEventListener('click', onOpenModal);
+addUser('mango');
 
-// addUser('mango');
-
-// console.log(validatePasword('qweqweqeqweqweqweqw'));
+console.log(validatePasword('qweqweqeqweqweqweqw'));
 
 // import {
 //   fetchAllUsers,
